@@ -26,7 +26,8 @@ Course order service need environment variable to comunicate with other AWS serv
 | **AWS_ACCESS_KEY** | ***true*** | AWS access key to access the dynamodb |
 |**AWS_SECRET_KEY**| ***true*** | AWS secret key to access the dynamodb |
 |**AWS_SESSION_TOKEN**| ***true*** | AWS Session Token to access the dynamodb |
-|**AWS_DYNAMODB_TABLE**| ***true*** | table order name in dynamodb |
+|**AWS_DYNAMODB_TABLE_TEST**| ***true*** | table order name in dynamodb for testing only(env.testing) |
+|**AWS_DYNAMODB_TABLE_PROD**| ***true*** | table order name in dynamodb for production (env.production) |
 |**AWS_REGION**| ***true*** | AWS region that service you used |
 
 > **Note** : If your want to run env variable in local machine, you need to create **.env.production** and **.env.testing** by filling the key and value in the table above
