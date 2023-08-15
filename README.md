@@ -25,6 +25,7 @@ Course order service need environment variable to comunicate with other AWS serv
 |--|--|--|
 | **AWS_ACCESS_KEY** | ***true*** | AWS access key to access the dynamodb |
 |**AWS_SECRET_KEY**| ***true*** | AWS secret key to access the dynamodb |
+|**AWS_SESSION_TOKEN**| ***true*** | AWS Session Token to access the dynamodb |
 |**AWS_DYNAMODB_TABLE**| ***true*** | table order name in dynamodb |
 |**AWS_REGION**| ***true*** | AWS region that service you used |
 
